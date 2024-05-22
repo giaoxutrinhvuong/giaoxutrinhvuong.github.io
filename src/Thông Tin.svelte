@@ -15,7 +15,7 @@
 
         <div class="flex flex-col gap-4">
           <h1>{date}</h1>
-          <iframe class="w-full h-80" type="application/pdf" src={pdf}></iframe>
+          <embed class="w-full h-80" type="application/pdf" src={pdf} />
           <p><a class="link" href={google}>Xem chi tiết</a></p>
         </div>
 

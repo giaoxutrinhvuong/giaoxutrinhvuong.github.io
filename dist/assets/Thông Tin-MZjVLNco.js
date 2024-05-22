@@ -1,4 +1,4 @@
-import { S as SvelteComponent, i as init, s as safe_not_equal, T as Template, c as create_component, m as mount_component, t as transition_in, a as transition_out, d as destroy_component, o as ensure_array_like, e as element, f as attr, g as insert, n as noop, j as detach, p as destroy_each, b as space, q as src_url_equal, h as append } from "./Template-Dcmw46pL.js";
+import { S as SvelteComponent, i as init, s as safe_not_equal, T as Template, c as create_component, m as mount_component, t as transition_in, a as transition_out, d as destroy_component, o as ensure_array_like, e as element, f as attr, g as insert, n as noop, j as detach, p as destroy_each, b as space, q as src_url_equal, h as append } from "./Template-CZx_JbhG.js";
 function get_each_context(ctx, list, i) {
   const child_ctx = ctx.slice();
   child_ctx[0] = list[i].date;
@@ -10,8 +10,8 @@ function create_each_block(ctx) {
   let div;
   let h1;
   let t1;
-  let iframe;
-  let iframe_src_value;
+  let embed;
+  let embed_src_value;
   let t2;
   let p;
   let t4;
@@ -22,24 +22,24 @@ function create_each_block(ctx) {
       h1.textContent = `${/*date*/
       ctx[0]}`;
       t1 = space();
-      iframe = element("iframe");
+      embed = element("embed");
       t2 = space();
       p = element("p");
       p.innerHTML = `<a class="link" href="${/*google*/
       ctx[1]}">Xem chi tiết</a>`;
       t4 = space();
-      attr(iframe, "class", "w-full h-80");
-      attr(iframe, "type", "application/pdf");
-      if (!src_url_equal(iframe.src, iframe_src_value = /*pdf*/
+      attr(embed, "class", "w-full h-80");
+      attr(embed, "type", "application/pdf");
+      if (!src_url_equal(embed.src, embed_src_value = /*pdf*/
       ctx[2]))
-        attr(iframe, "src", iframe_src_value);
+        attr(embed, "src", embed_src_value);
       attr(div, "class", "flex flex-col gap-4");
     },
     m(target, anchor) {
       insert(target, div, anchor);
       append(div, h1);
       append(div, t1);
-      append(div, iframe);
+      append(div, embed);
       append(div, t2);
       append(div, p);
       append(div, t4);

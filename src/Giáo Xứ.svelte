@@ -10,39 +10,39 @@
         <div class="rounded-2xl overflow-hidden">
           <img class="w-full object-cover aspect-square image-effect" src="/images/Cha Quyền.png" alt="Cha AnPhonso Nguyễn Huy Quyền (1993-2012)" />
         </div>
-        <div class="flex justify-between gap-2">
-          <div class="flex-1 text-xl font-bold">
-            Cha AnPhonso Nguyễn Huy Quyền
-          </div>
+        <div class="flex justify-end">
           <div class="flex-none w-fit text-lg text-gray-600">
             1993-2012
           </div>
+        </div>
+        <div class="text-lg font-bold">
+          Cha AnPhonso Nguyễn Huy Quyền
         </div>
       </div>
       <div class="">
         <div class="rounded-2xl overflow-hidden">
           <img class="w-full object-cover aspect-square image-effect" src="/images/Cha Đồng.png" alt="Cha Giuse Bùi văn Đồng (2012-2018)" />
         </div>
-        <div class="flex justify-between gap-2">
-          <div class="flex-1 text-xl font-bold">
-            Cha Giuse Bùi văn Đồng
-          </div>
+        <div class="flex justify-end">
           <div class="flex-none w-fit text-lg text-gray-600">
             2012-2018
           </div>
+        </div>
+        <div class="text-lg font-bold">
+          Cha Giuse Bùi văn Đồng
         </div>
       </div>
       <div class="">
         <div class="rounded-2xl overflow-hidden">
           <img class="w-full object-cover aspect-square image-effect" src="/images/Cha Trị.png" alt="Cha Gioan Baotixita Trần văn Trị (2018 - nay)" />
         </div>
-        <div class="flex justify-between gap-2">
-          <div class="flex-1 text-xl font-bold">
-            Cha Gioan Baotixita Trần văn Trị 
-          </div>
+        <div class="flex justify-end">
           <div class="flex-none w-fit text-lg text-gray-600">
             2018 - nay
           </div>
+        </div>
+        <div class="text-lg font-bold">
+          Cha Gioan Baotixita Trần văn Trị 
         </div>
       </div>
     </div>

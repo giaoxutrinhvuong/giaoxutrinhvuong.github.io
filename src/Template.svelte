@@ -7,6 +7,8 @@
   const navLinks = [{title: 'Giáo Xứ', link: 'Giáo Xứ.html'}, {title: 'Mục Vụ', link: 'Mục Vụ.html'}, {title: 'Phụng Vụ', link: 'Phụng Vụ.html'}, {title: 'Sinh Hoạt', link: 'Sinh Hoạt.html'}, {title: 'Thông Tin', link: 'Thông Tin.html'}, {title: 'Đoàn Thể', link: 'Đoàn Thể.html'}];
 </script>
 
+<link rel="shortcut icon" type="image/svg+xml" href="/images/Maria.png"/>
+
 <div class="fixed -z-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-100 to-white w-screen h-screen"></div>
 
 <div class="font-sans w-full min-h-screen">

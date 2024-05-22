@@ -462,25 +462,27 @@ function create_each_block(ctx) {
   };
 }
 function create_fragment(ctx) {
-  let div0;
+  let link_1;
   let t0;
+  let div0;
+  let t1;
   let div10;
   let div4;
   let a0;
-  let t1;
+  let t2;
   let div3;
   let div1;
-  let t2;
-  let div2;
   let t3;
+  let div2;
+  let t4;
   let a1;
-  let t6;
+  let t7;
   let div8;
   let div7;
   let div6;
   let div5;
-  let t7;
   let t8;
+  let t9;
   let div9;
   let current;
   let mounted;
@@ -506,36 +508,41 @@ function create_fragment(ctx) {
   );
   return {
     c() {
-      div0 = element("div");
+      link_1 = element("link");
       t0 = space();
+      div0 = element("div");
+      t1 = space();
       div10 = element("div");
       div4 = element("div");
       a0 = element("a");
       a0.innerHTML = `<img src="images/Maria.png" class="w-16 h-16 image-effect" alt="Maria"/>`;
-      t1 = space();
+      t2 = space();
       div3 = element("div");
       div1 = element("div");
       div1.innerHTML = `<svg class="fill-black w-10 h-10" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M6.001 7.128L6 10.438l19.998-.005L26 7.124zM6.001 21.566L6 24.876l19.998-.006.002-3.308zM6.001 14.341L6 17.65l19.998-.004.002-3.309z"></path></g></svg>`;
-      t2 = space();
+      t3 = space();
       div2 = element("div");
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      t3 = space();
+      t4 = space();
       a1 = element("a");
       a1.innerHTML = `<svg class="w-12 h-12 image-effect" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>Facebook-color</title><desc>Created with Sketch.</desc><defs></defs><g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Color-" transform="translate(-200.000000, -160.000000)" fill="#4460A0"><path d="M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z" id="Facebook"></path></g></g></g></svg>`;
-      t6 = space();
+      t7 = space();
       div8 = element("div");
       div7 = element("div");
       div6 = element("div");
       div5 = element("div");
       div5.innerHTML = `<img class="image-effect" src="/images/Trinh Vương Church 4.png" alt="Giao xu Trinh Vuong"/>`;
-      t7 = space();
+      t8 = space();
       if (content_slot)
         content_slot.c();
-      t8 = space();
+      t9 = space();
       div9 = element("div");
       div9.textContent = "Queenship of Mary Parish — 219 Armitage Avenue, Glen Ellyn, IL 60137";
+      attr(link_1, "rel", "shortcut icon");
+      attr(link_1, "type", "image/svg+xml");
+      attr(link_1, "href", "/images/Maria.png");
       attr(div0, "class", "fixed -z-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-100 to-white w-screen h-screen");
       attr(a0, "class", "flex-none w-20 flex justify-center items-center");
       attr(a0, "href", "/");
@@ -555,33 +562,35 @@ function create_fragment(ctx) {
       attr(div10, "class", "font-sans w-full min-h-screen");
     },
     m(target, anchor) {
-      insert(target, div0, anchor);
+      insert(target, link_1, anchor);
       insert(target, t0, anchor);
+      insert(target, div0, anchor);
+      insert(target, t1, anchor);
       insert(target, div10, anchor);
       append(div10, div4);
       append(div4, a0);
-      append(div4, t1);
+      append(div4, t2);
       append(div4, div3);
       append(div3, div1);
-      append(div3, t2);
+      append(div3, t3);
       append(div3, div2);
       for (let i = 0; i < each_blocks.length; i += 1) {
         if (each_blocks[i]) {
           each_blocks[i].m(div2, null);
         }
       }
-      append(div4, t3);
+      append(div4, t4);
       append(div4, a1);
-      append(div10, t6);
+      append(div10, t7);
       append(div10, div8);
       append(div8, div7);
       append(div7, div6);
       append(div6, div5);
-      append(div6, t7);
+      append(div6, t8);
       if (content_slot) {
         content_slot.m(div6, null);
       }
-      append(div10, t8);
+      append(div10, t9);
       append(div10, div9);
       current = true;
       if (!mounted) {
@@ -658,8 +667,10 @@ function create_fragment(ctx) {
     },
     d(detaching) {
       if (detaching) {
-        detach(div0);
+        detach(link_1);
         detach(t0);
+        detach(div0);
+        detach(t1);
         detach(div10);
       }
       destroy_each(each_blocks, detaching);
