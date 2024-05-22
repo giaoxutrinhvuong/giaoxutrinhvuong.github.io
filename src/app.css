@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.carousel::-webkit-scrollbar {
+	display: none;
+}
+.carousel {
+	scrollbar-width: none;
+}
+
+p {
+  @apply text-base;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h2 {
+  @apply text-3xl font-bold;
+}
+
+h3 {
+  @apply text-2xl font-bold;
+}
+
+.link {
+  @apply text-blue-600 hover:text-blue-800 transition duration-300 hover:underline;
+  text-decoration: none;
+}
+
+.image-effect {
+  @apply hover:scale-125 hover:brightness-125 ease-in-out transition-all duration-500 cursor-pointer;
+}
