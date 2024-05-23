@@ -10,8 +10,8 @@ function create_each_block(ctx) {
   let div;
   let h1;
   let t1;
-  let embed;
-  let embed_src_value;
+  let iframe;
+  let iframe_src_value;
   let t2;
   let p;
   let t4;
@@ -22,24 +22,24 @@ function create_each_block(ctx) {
       h1.textContent = `${/*date*/
       ctx[0]}`;
       t1 = space();
-      embed = element("embed");
+      iframe = element("iframe");
       t2 = space();
       p = element("p");
       p.innerHTML = `<a class="link" href="${/*google*/
       ctx[1]}">Xem chi tiết</a>`;
       t4 = space();
-      attr(embed, "class", "w-full h-80");
-      attr(embed, "type", "application/pdf");
-      if (!src_url_equal(embed.src, embed_src_value = /*pdf*/
-      ctx[2]))
-        attr(embed, "src", embed_src_value);
+      if (!src_url_equal(iframe.src, iframe_src_value = /*google*/
+      ctx[1] + "&embedded=true"))
+        attr(iframe, "src", iframe_src_value);
+      attr(iframe, "class", "w-full h-80");
+      attr(iframe, "frameborder", "0");
       attr(div, "class", "flex flex-col gap-4");
     },
     m(target, anchor) {
       insert(target, div, anchor);
       append(div, h1);
       append(div, t1);
-      append(div, embed);
+      append(div, iframe);
       append(div, t2);
       append(div, p);
       append(div, t4);
@@ -57,23 +57,19 @@ function create_content_slot(ctx) {
   let each_value = ensure_array_like([
     {
       date: "January 8, 2023",
-      google: "https://drive.google.com/file/d/1-5Xu1MLz5gwPVt840EFrdJKv5pKtQgQd/preview",
-      pdf: "/Thong Tin Lien Lac/TTLL_8-1-2023.pdf"
+      google: "https://drive.google.com/file/d/1FHmBroPitZAECsWRYHBEENv9aVLCEHFf/preview?usp=sharing"
     },
     {
       date: "January 15, 2023",
-      google: "https://drive.google.com/file/d/1984vAQQdgE38-YROn3obYCfjNCpe2NIe/preview",
-      pdf: "/Thong Tin Lien Lac/TTLL_15-1-2023.pdf"
+      google: "https://drive.google.com/file/d/1krm75grGIEzA6wFUYuceX96zmeZBEMrW/preview?usp=sharing"
     },
     {
       date: "January 22, 2023",
-      google: "https://drive.google.com/file/d/1OlrJkWrrYd7K04tdc3sE2wDa0vrFlQ9m/preview",
-      pdf: "/Thong Tin Lien Lac/TTLL_22-1-2023.pdf"
+      google: "https://drive.google.com/file/d/14GWgWvsw3E3pTGiplxXeMrBKTnhgSMKP/preview?usp=sharing"
     },
     {
       date: "January 29, 2023",
-      google: "https://drive.google.com/file/d/1rrqNU_IKgM3UdcQMc1V9nNtY22XpRq-Q/preview",
-      pdf: "/Thong Tin Lien Lac/TTLL_29-1-2023.pdf"
+      google: "https://drive.google.com/file/d/15PROUIQB-oLK-nGFsVuJO9QwhpHydZqi/preview?usp=sharing"
     }
   ]);
   let each_blocks = [];
