@@ -97,5 +97,9 @@
       </div>
     </div>
 
+    <div class="flex w-full">
+      <div class="mapouter"><div class="gmap_canvas"><iframe crossorigin="anonymous" class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=219 Armitage Ave Glen Ellyn, IL&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed google map</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+    </div>
+
   </svelte:fragment>
 </Template>

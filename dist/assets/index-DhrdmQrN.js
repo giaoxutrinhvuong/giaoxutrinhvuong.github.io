@@ -15,6 +15,8 @@ function create_content_slot(ctx) {
   let div22;
   let t40;
   let div26;
+  let t48;
+  let div30;
   let mounted;
   let dispose;
   return {
@@ -40,6 +42,9 @@ function create_content_slot(ctx) {
       t40 = space();
       div26 = element("div");
       div26.innerHTML = `<h2>Giáo Xứ Trinh Vương</h2> <h2 class="text-blue-500">Thông Báo</h2> <p>Ban Phụng Vụ:</p> <p>Bắt đầu ngày đầu năm mới phụng vụ (năm A) nhằm ngày 27 tháng 11 Chúa Nhật thứ nhất mùa Vọng, thánh lễ sẽ có sự hiện diện của các em giúp lễ và gia đình dâng của lễ. Kính mời các gia đình và các em thiếu nhi cộng tác với chúng tôi để cho Thánh lễ thêm phần sốt sắng và trang nghiêm. Mọi chi tiết xin liên lạc với anh Đức- Trưởng ban Phụng Vụ</p>`;
+      t48 = space();
+      div30 = element("div");
+      div30.innerHTML = `<div class="mapouter"><div class="gmap_canvas"><iframe crossorigin="anonymous" class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=219 Armitage Ave Glen Ellyn, IL&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed google map</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>`;
       attr(div12, "class", "grid grid-cols-1 sm:grid-cols-2 gap-12");
       attr(div16, "class", "flex flex-col sm:flex-row-reverse gap-12");
       attr(div20, "class", "flex overflow-x-scroll scroll-smooth snap-x snap-mandatory w-full h-full carousel rounded-2xl");
@@ -50,6 +55,7 @@ function create_content_slot(ctx) {
       attr(div25, "class", "flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center");
       attr(div26, "class", "flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center");
       attr(div27, "class", "flex flex-col sm:flex-row gap-12");
+      attr(div30, "class", "flex w-full");
     },
     m(target, anchor) {
       insert(target, div12, anchor);
@@ -68,6 +74,8 @@ function create_content_slot(ctx) {
       append(div23, div22);
       append(div27, t40);
       append(div27, div26);
+      insert(target, t48, anchor);
+      insert(target, div30, anchor);
       if (!mounted) {
         dispose = [
           listen(
@@ -94,6 +102,8 @@ function create_content_slot(ctx) {
         detach(div16);
         detach(t35);
         detach(div27);
+        detach(t48);
+        detach(div30);
       }
       ctx[3](null);
       mounted = false;
