@@ -515,7 +515,7 @@ function create_fragment(ctx) {
       div10 = element("div");
       div4 = element("div");
       a0 = element("a");
-      a0.innerHTML = `<img src="images/Maria.png" class="w-16 h-16 image-effect" alt="Maria"/>`;
+      a0.innerHTML = `<img src="/images/Maria.png" class="w-16 h-16 image-effect" alt="Maria"/>`;
       t2 = space();
       div3 = element("div");
       div1 = element("div");
@@ -553,7 +553,7 @@ function create_fragment(ctx) {
       attr(div3, "class", "flex-1 flex-col");
       attr(a1, "class", "flex-none w-20 flex justify-center items-center");
       attr(a1, "href", "https://www.facebook.com/Queenshipofmary");
-      attr(div4, "class", "w-full flex gap-4 justify-between items-center px-8 bg-gray-200");
+      attr(div4, "class", "w-full flex gap-4 justify-between items-center px-8 bg-gray-200 sticky top-0 z-10");
       attr(div5, "class", "w-full overflow-hidden rounded-2xl");
       attr(div6, "class", "w-full flex flex-col gap-12 mt-12");
       attr(div7, "class", "w-full lg:w-[1150px] px-4");

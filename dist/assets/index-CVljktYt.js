@@ -1,4 +1,4 @@
-import { S as SvelteComponent, i as init, s as safe_not_equal, T as Template, c as create_component, m as mount_component, t as transition_in, a as transition_out, d as destroy_component, e as element, b as space, f as attr, g as insert, h as append, l as listen, n as noop, j as detach, r as run_all, k as binding_callbacks } from "./Template-CZx_JbhG.js";
+import { S as SvelteComponent, i as init, s as safe_not_equal, T as Template, c as create_component, m as mount_component, t as transition_in, a as transition_out, d as destroy_component, e as element, b as space, f as attr, g as insert, h as append, l as listen, n as noop, j as detach, r as run_all, k as binding_callbacks } from "./Template-BZ4s52IX.js";
 function create_content_slot(ctx) {
   let div12;
   let t24;
@@ -50,7 +50,7 @@ function create_content_slot(ctx) {
       attr(div20, "class", "flex overflow-x-scroll scroll-smooth snap-x snap-mandatory w-full h-full carousel rounded-2xl");
       attr(div21, "class", "prev select-none cursor-pointer text-3xl rounded-full bg-white/50 w-10 h-10 flex justify-center items-center p-1");
       attr(div22, "class", "next select-none cursor-pointer text-3xl rounded-full bg-white/50 w-10 h-10 flex justify-center items-center p-1");
-      attr(div23, "class", "w-full flex justify-between absolute bottom-1/2 translate-y-1/2 p-4 z-10");
+      attr(div23, "class", "w-full flex justify-between absolute bottom-1/2 translate-y-1/2 p-4 z-1");
       attr(div24, "class", "w-full flex flex-col relative");
       attr(div25, "class", "flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center");
       attr(div26, "class", "flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center");
