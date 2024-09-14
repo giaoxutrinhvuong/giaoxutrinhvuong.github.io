@@ -79,7 +79,7 @@
               <img class="w-full h-full object-cover" src="/images/Đài Đức Mẹ.jpg" alt="" />
             </div>
           </div>
-          <div class="w-full flex justify-between absolute bottom-1/2 translate-y-1/2 p-4 z-10">
+          <div class="w-full flex justify-between absolute bottom-1/2 translate-y-1/2 p-4 z-1">
             <div class="prev select-none cursor-pointer text-3xl rounded-full bg-white/50 w-10 h-10 flex justify-center items-center p-1" on:click={prevCarousel}>
               <svg fill="#000000" class="w-full h-full" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <polygon points="213.3,205.3 213.3,77.3 0,248 213.3,418.7 213.3,290.7 512,290.7 512,205.3 "></polygon> </g></svg>
             </div>
