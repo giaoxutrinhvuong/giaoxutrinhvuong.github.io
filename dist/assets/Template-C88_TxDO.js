@@ -438,14 +438,14 @@ function create_each_block(ctx) {
       a = element("a");
       t0 = text(t0_value);
       t1 = space();
-      attr(a, "class", "rounded-2xl w-4/5 h-4/5 flex justify-center items-center transition-all duration-250 ease-in-out bg-gray-400 text-gray-900 hover:bg-gray-600 hover:text-gray-200 hover:font-extrabold hover:scale-125");
+      attr(a, "class", "rounded-2xl w-full h-4/5 flex justify-center items-center transition-all duration-250 ease-in-out bg-gray-400 text-gray-900 hover:bg-gray-600 hover:text-gray-200");
       attr(
         a,
         "href",
         /*link*/
         ctx[7]
       );
-      attr(div, "class", "w-36 h-16 flex justify-center items-center");
+      attr(div, "class", "w-full sm:w-20 border border-1 lg:w-24 h-full flex justify-center items-center");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -547,7 +547,7 @@ function create_fragment(ctx) {
       attr(a0, "class", "flex-none w-20 flex justify-center items-center");
       attr(a0, "href", "/");
       attr(div1, "class", "sm:hidden h-24 flex items-center justify-center cursor-pointer select-none");
-      attr(div2, "class", "sm:flex sm:flex-row flex-col sm:h-24 gap-1 justify-center items-center");
+      attr(div2, "class", "sm:flex sm:flex-row flex-col sm:h-16 my-0 gap-1 lg:gap-4 justify-center items-center");
       toggle_class(div2, "hidden", !/*navMenuExpanded*/
       ctx[0]);
       attr(div3, "class", "flex-1 flex-col");

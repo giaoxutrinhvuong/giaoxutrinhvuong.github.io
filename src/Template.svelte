@@ -21,10 +21,10 @@
       <div class="sm:hidden h-24 flex items-center justify-center cursor-pointer select-none" on:click={() => clickNavExpand()}>
         <svg class="fill-black w-10 h-10" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M6.001 7.128L6 10.438l19.998-.005L26 7.124zM6.001 21.566L6 24.876l19.998-.006.002-3.308zM6.001 14.341L6 17.65l19.998-.004.002-3.309z"></path></g></svg>
       </div>
-      <div class="sm:flex sm:flex-row flex-col sm:h-24 gap-1 justify-center items-center" class:hidden={!navMenuExpanded}>
+      <div class="sm:flex sm:flex-row flex-col sm:h-16 my-0 gap-1 lg:gap-4 justify-center items-center" class:hidden={!navMenuExpanded}>
         {#each navLinks as {title, link}}
-          <div class="w-36 h-16 flex justify-center items-center">
-            <a class="rounded-2xl w-4/5 h-4/5 flex justify-center items-center transition-all duration-250 ease-in-out bg-gray-400 text-gray-900 hover:bg-gray-600 hover:text-gray-200 hover:font-extrabold hover:scale-125" href={link}>{title}</a>
+          <div class="w-full sm:w-20 border border-1 lg:w-24 h-full flex justify-center items-center">
+            <a class="rounded-2xl w-full h-4/5 flex justify-center items-center transition-all duration-250 ease-in-out bg-gray-400 text-gray-900 hover:bg-gray-600 hover:text-gray-200" href={link}>{title}</a>
           </div>
         {/each}
       </div>

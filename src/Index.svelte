@@ -50,13 +50,13 @@
       </div>
     </div>
 
-    <div class="flex flex-col sm:flex-row-reverse gap-12">
-      <div class="flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
+    <div class="w-full flex flex-col sm:flex-row-reverse gap-12">
+      <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
         <div class="w-full overflow-hidden rounded-2xl">
           <img class="image-effect" src="/images/Cha Trị.png" alt="Cha Trị image" />
         </div>
       </div>
-      <div class="flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
+      <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
         <h2>Cha Chánh xứ: JB Trần văn Trị</h2>
         <h2 class="text-red-500">Lời nguyện trong cơn dịch bệnh</h2>
         <p>Lạy Thiên chúa Ba Ngôi toàn năng chúng con đang họp nhau cầu nguyện, tha thiết nài xin cho cơn dịch bệnh mau chấm dứt.</p>
@@ -65,8 +65,8 @@
       </div>
     </div>
 
-    <div class="flex flex-col sm:flex-row gap-12">
-      <div class="flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
+    <div class="w-full flex flex-col sm:flex-row gap-12">
+      <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
         <div class="w-full flex flex-col relative">
           <div class="flex overflow-x-scroll scroll-smooth snap-x snap-mandatory w-full h-full carousel rounded-2xl" bind:this={carousel}>
             <div class="snap-start w-full flex-none">
@@ -89,7 +89,7 @@
           </div>
         </div>
       </div>
-      <div class="flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
+      <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
         <h2>Giáo Xứ Trinh Vương</h2>
         <h2 class="text-blue-500">Thông Báo</h2>
         <p>Ban Phụng Vụ:</p>

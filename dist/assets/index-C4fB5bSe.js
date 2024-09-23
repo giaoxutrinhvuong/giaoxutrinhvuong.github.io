@@ -1,4 +1,4 @@
-import { S as SvelteComponent, i as init, s as safe_not_equal, T as Template, c as create_component, m as mount_component, t as transition_in, a as transition_out, d as destroy_component, e as element, b as space, f as attr, g as insert, h as append, l as listen, n as noop, j as detach, r as run_all, k as binding_callbacks } from "./Template-BZ4s52IX.js";
+import { S as SvelteComponent, i as init, s as safe_not_equal, T as Template, c as create_component, m as mount_component, t as transition_in, a as transition_out, d as destroy_component, e as element, b as space, f as attr, g as insert, h as append, l as listen, n as noop, j as detach, r as run_all, k as binding_callbacks } from "./Template-C88_TxDO.js";
 function create_content_slot(ctx) {
   let div12;
   let t24;
@@ -25,7 +25,7 @@ function create_content_slot(ctx) {
       div12.innerHTML = `<div class="flex flex-col gap-4 items-center justify-center"><h1>Xem Thánh lễ trực tuyến</h1> <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Q4rK_cRjvqA?si=SZHo8rtDlYEmUsDt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div> <div class="flex flex-col gap-4 items-center justify-center"><h1>Giờ Thánh lễ:</h1> <h2>Ngày trong tuần:</h2> <div class="flex flex-wrap gap-4 justify-evenly"><div class="w-fit min-h-8 flex justify-center rounded-lg px-4 text-lg bg-gray-200">Thứ Ba: 6:00pm</div> <div class="w-fit min-h-8 flex justify-center rounded-lg px-4 text-lg bg-gray-200">Thứ Tư: 6:00pm</div> <div class="w-fit min-h-8 flex justify-center rounded-lg px-4 text-lg bg-gray-200">Thứ Năm: 6:00pm</div> <div class="w-fit min-h-8 flex justify-center rounded-lg px-4 text-lg bg-gray-200">Thứ Sáu: 6:00pm</div></div> <h2>Chúa Nhật:</h2> <div class="flex flex-wrap gap-4 justify-evenly"><div class="w-fit min-h-8 flex justify-center rounded-lg px-4 text-lg bg-gray-200">8:30am – 9:30am Thánh lễ I</div> <div class="w-fit min-h-8 flex justify-center rounded-lg px-4 text-lg bg-gray-200">12:30pm – 1:30pm Thánh lễ II</div> <div class="w-fit min-h-8 flex justify-center rounded-lg px-4 text-lg bg-gray-200">Rửa tội: Sau Thánh lễ II</div> <div class="w-fit min-h-8 flex justify-center rounded-lg px-4 text-lg bg-gray-200">Giải tội: Trước các Thánh Lễ Chúa Nhật hoặc lấy hẹn trước</div></div></div>`;
       t24 = space();
       div16 = element("div");
-      div16.innerHTML = `<div class="flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center"><div class="w-full overflow-hidden rounded-2xl"><img class="image-effect" src="/images/Cha Trị.png" alt="Cha Trị image"/></div></div> <div class="flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center"><h2>Cha Chánh xứ: JB Trần văn Trị</h2> <h2 class="text-red-500">Lời nguyện trong cơn dịch bệnh</h2> <p>Lạy Thiên chúa Ba Ngôi toàn năng chúng con đang họp nhau cầu nguyện, tha thiết nài xin cho cơn dịch bệnh mau chấm dứt.</p> <p>Lạy Chúa Cha giàu lòng thương xót xin nhìn đến nỗi thống khổ của đoàn con trên khắp thế giới, đặc biệt tại những nơi dịch bệnh đang hoành hành. Xin củng cố đức tin của chúng con, cho chúng con hoàn toàn tín thác vào tình yêu quan phòng của Cha.</p> <p><a class="link" href="/Documents/Lời Nguyện trong cơn dịch bệnh.pdf">Đọc Tiếp</a></p></div>`;
+      div16.innerHTML = `<div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center"><div class="w-full overflow-hidden rounded-2xl"><img class="image-effect" src="/images/Cha Trị.png" alt="Cha Trị image"/></div></div> <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center"><h2>Cha Chánh xứ: JB Trần văn Trị</h2> <h2 class="text-red-500">Lời nguyện trong cơn dịch bệnh</h2> <p>Lạy Thiên chúa Ba Ngôi toàn năng chúng con đang họp nhau cầu nguyện, tha thiết nài xin cho cơn dịch bệnh mau chấm dứt.</p> <p>Lạy Chúa Cha giàu lòng thương xót xin nhìn đến nỗi thống khổ của đoàn con trên khắp thế giới, đặc biệt tại những nơi dịch bệnh đang hoành hành. Xin củng cố đức tin của chúng con, cho chúng con hoàn toàn tín thác vào tình yêu quan phòng của Cha.</p> <p><a class="link" href="/Documents/Lời Nguyện trong cơn dịch bệnh.pdf">Đọc Tiếp</a></p></div>`;
       t35 = space();
       div27 = element("div");
       div25 = element("div");
@@ -46,15 +46,15 @@ function create_content_slot(ctx) {
       div30 = element("div");
       div30.innerHTML = `<div class="mapouter"><div class="gmap_canvas"><iframe crossorigin="anonymous" class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=219 Armitage Ave Glen Ellyn, IL&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed google map</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>`;
       attr(div12, "class", "grid grid-cols-1 sm:grid-cols-2 gap-12");
-      attr(div16, "class", "flex flex-col sm:flex-row-reverse gap-12");
+      attr(div16, "class", "w-full flex flex-col sm:flex-row-reverse gap-12");
       attr(div20, "class", "flex overflow-x-scroll scroll-smooth snap-x snap-mandatory w-full h-full carousel rounded-2xl");
       attr(div21, "class", "prev select-none cursor-pointer text-3xl rounded-full bg-white/50 w-10 h-10 flex justify-center items-center p-1");
       attr(div22, "class", "next select-none cursor-pointer text-3xl rounded-full bg-white/50 w-10 h-10 flex justify-center items-center p-1");
       attr(div23, "class", "w-full flex justify-between absolute bottom-1/2 translate-y-1/2 p-4 z-1");
       attr(div24, "class", "w-full flex flex-col relative");
-      attr(div25, "class", "flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center");
-      attr(div26, "class", "flex-none w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center");
-      attr(div27, "class", "flex flex-col sm:flex-row gap-12");
+      attr(div25, "class", "flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center");
+      attr(div26, "class", "flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center");
+      attr(div27, "class", "w-full flex flex-col sm:flex-row gap-12");
       attr(div30, "class", "flex w-full");
     },
     m(target, anchor) {
