@@ -8,7 +8,7 @@
     <div class="flex flex-col even:sm:flex-row-reverse odd:sm:flex-row gap-12">
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
         <div class="w-full overflow-hidden rounded-2xl">
-          <img class="image-effect" src="/images/baptism2.png" alt="Baptism" />
+          <img class="image-effect" src="images/baptism2.png" alt="Baptism" />
         </div>
       </div>
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
@@ -21,7 +21,7 @@
     <div class="flex flex-col even:sm:flex-row-reverse odd:sm:flex-row gap-12">
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
         <div class="w-full overflow-hidden rounded-2xl">
-          <img class="image-effect" src="/images/GLVN/Thêm Sức 1.JPG" alt="Confirmation" />
+          <img class="image-effect" src="images/GLVN/Thêm Sức 1.JPG" alt="Confirmation" />
         </div>
       </div>
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
@@ -34,7 +34,7 @@
     <div class="flex flex-col even:sm:flex-row-reverse odd:sm:flex-row gap-12">
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
         <div class="w-full overflow-hidden rounded-2xl">
-          <img class="image-effect" src="/images/GLTT-HN/GLTT1.jpg" alt="Tân Tòng" />
+          <img class="image-effect" src="images/GLTT-HN/GLTT1.jpg" alt="Tân Tòng" />
         </div>
       </div>
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
@@ -48,7 +48,7 @@
     <div class="flex flex-col even:sm:flex-row-reverse odd:sm:flex-row gap-12">
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
         <div class="w-full overflow-hidden rounded-2xl">
-          <img class="image-effect" src="/images/Bí Tích Giải tội.png" alt="Sacrament of reconciliation" />
+          <img class="image-effect" src="images/Bí Tích Giải tội.png" alt="Sacrament of reconciliation" />
         </div>
       </div>
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
@@ -61,7 +61,7 @@
     <div class="flex flex-col even:sm:flex-row-reverse odd:sm:flex-row gap-12">
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
         <div class="w-full overflow-hidden rounded-2xl">
-          <img class="image-effect" src="/images/Bí Tích Hôn Phối.png" alt="Sacrament of Holy Matrimony" />
+          <img class="image-effect" src="images/Bí Tích Hôn Phối.png" alt="Sacrament of Holy Matrimony" />
         </div>
       </div>
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
@@ -74,7 +74,7 @@
     <div class="flex flex-col even:sm:flex-row-reverse odd:sm:flex-row gap-12">
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center">
         <div class="w-full overflow-hidden rounded-2xl">
-          <img class="image-effect" src="/images/Anointing of the Sick.jpg" alt="Anointing of the Sick" />
+          <img class="image-effect" src="images/Anointing of the Sick.jpg" alt="Anointing of the Sick" />
         </div>
       </div>
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">

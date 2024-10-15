@@ -1,27 +1,22 @@
 <script>
-  let navMenuExpanded = false;
-  function clickNavExpand() {
-    navMenuExpanded = !navMenuExpanded;
-  }
-
   const navLinks = [{title: 'Giáo Xứ', link: 'Giáo Xứ.html'}, {title: 'Mục Vụ', link: 'Mục Vụ.html'}, {title: 'Phụng Vụ', link: 'Phụng Vụ.html'}, {title: 'Sinh Hoạt', link: 'Sinh Hoạt.html'}, {title: 'Thông Tin', link: 'Thông Tin.html'}, {title: 'Đoàn Thể', link: 'Đoàn Thể.html'}];
 </script>
 
-<link rel="shortcut icon" type="image/svg+xml" href="/images/Maria.png"/>
+<link rel="shortcut icon" type="image/svg+xml" href="images/Maria.png"/>
 
 <div class="fixed -z-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-100 to-white w-screen h-screen"></div>
 
 <div class="font-sans w-full min-h-screen">
 
   <div class="w-full flex gap-4 justify-between items-center px-8 bg-gray-200 sticky top-0 z-10">
-    <a class="flex-none w-20 flex justify-center items-center" href="/">
-      <img src="/images/Maria.png" class="w-16 h-16 image-effect" alt="Maria" />
+    <a class="flex-none w-20 flex justify-center items-center" href="index.html">
+      <img src="images/Maria.png" class="w-16 h-16 image-effect" alt="Maria" />
     </a>
     <div class="flex-1 flex-col">
-      <div class="sm:hidden h-24 flex items-center justify-center cursor-pointer select-none" on:click={() => clickNavExpand()}>
+      <div class="sm:hidden h-24 flex items-center justify-center cursor-pointer select-none" id="navButton">
         <svg class="fill-black w-10 h-10" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M6.001 7.128L6 10.438l19.998-.005L26 7.124zM6.001 21.566L6 24.876l19.998-.006.002-3.308zM6.001 14.341L6 17.65l19.998-.004.002-3.309z"></path></g></svg>
       </div>
-      <div class="sm:flex sm:flex-row flex-col sm:h-16 my-0 gap-1 lg:gap-4 justify-center items-center" class:hidden={!navMenuExpanded}>
+      <div class="sm:flex sm:flex-row flex-col sm:h-16 my-0 gap-1 lg:gap-4 justify-center items-center hidden" id="nav">
         {#each navLinks as {title, link}}
           <div class="w-full sm:w-20 border border-1 lg:w-24 h-full flex justify-center items-center">
             <a class="rounded-2xl w-full h-4/5 flex justify-center items-center transition-all duration-250 ease-in-out bg-gray-400 text-gray-900 hover:bg-gray-600 hover:text-gray-200" href={link}>{title}</a>
@@ -38,7 +33,7 @@
     <div class="w-full lg:w-[1150px] px-4">
       <div class="w-full flex flex-col gap-12 mt-12">
         <div class="w-full overflow-hidden rounded-2xl">
-          <img class="image-effect" src="/images/Trinh Vương Church 4.png" alt="Giao xu Trinh Vuong"  />
+          <img class="image-effect" src="images/Trinh Vương Church 4.png" alt="Giao xu Trinh Vuong"  />
         </div>
         <slot name="content" />
       </div>

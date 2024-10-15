@@ -10,7 +10,7 @@
       <h1>Lịch Phụng Vụ Tháng</h1>
 
       <div>
-        <img class="w-full" src="/Documents/February 2023.jpg" alt="Lich Phung Vu" />
+        <img class="w-full" src="Documents/February 2023.jpg" alt="Lich Phung Vu" />
       </div>
 
       <div>

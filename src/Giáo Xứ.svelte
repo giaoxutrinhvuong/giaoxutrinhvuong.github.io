@@ -8,7 +8,7 @@
     <div class="columns-1 sm:columns-3">
       <div class="">
         <div class="rounded-2xl overflow-hidden">
-          <img class="w-full object-cover aspect-square image-effect" src="/images/Cha Quyền.png" alt="Cha AnPhonso Nguyễn Huy Quyền (1993-2012)" />
+          <img class="w-full object-cover aspect-square image-effect" src="images/Cha Quyền.png" alt="Cha AnPhonso Nguyễn Huy Quyền (1993-2012)" />
         </div>
         <div class="flex justify-end">
           <div class="flex-none w-fit text-lg text-gray-600">
@@ -21,7 +21,7 @@
       </div>
       <div class="">
         <div class="rounded-2xl overflow-hidden">
-          <img class="w-full object-cover aspect-square image-effect" src="/images/Cha Đồng.png" alt="Cha Giuse Bùi văn Đồng (2012-2018)" />
+          <img class="w-full object-cover aspect-square image-effect" src="images/Cha Đồng.png" alt="Cha Giuse Bùi văn Đồng (2012-2018)" />
         </div>
         <div class="flex justify-end">
           <div class="flex-none w-fit text-lg text-gray-600">
@@ -34,7 +34,7 @@
       </div>
       <div class="">
         <div class="rounded-2xl overflow-hidden">
-          <img class="w-full object-cover aspect-square image-effect" src="/images/Cha Trị.png" alt="Cha Gioan Baotixita Trần văn Trị (2018 - nay)" />
+          <img class="w-full object-cover aspect-square image-effect" src="images/Cha Trị.png" alt="Cha Gioan Baotixita Trần văn Trị (2018 - nay)" />
         </div>
         <div class="flex justify-end">
           <div class="flex-none w-fit text-lg text-gray-600">
@@ -55,7 +55,7 @@
     <div class="flex flex-col gap-4">
       <h1>Một vài hình ảnh xây dựng nhà thờ mới năm 2005</h1>
       <div class="columns-1 sm:columns-3 gap-4 space-y-4">
-        {#each ['/images/Xây dựng GX/CRW_4620.JPG', '/images/Xây dựng GX/CRW_4624.JPG', '/images/Xây dựng GX/CRW_4626.JPG', '/images/Xây dựng GX/CRW_4628.JPG', '/images/Xây dựng GX/CRW_4611.JPG', '/images/Xây dựng GX/CRW_4603.JPG'] as photo}
+        {#each ['images/Xây dựng GX/CRW_4620.JPG', 'images/Xây dựng GX/CRW_4624.JPG', 'images/Xây dựng GX/CRW_4626.JPG', 'images/Xây dựng GX/CRW_4628.JPG', 'images/Xây dựng GX/CRW_4611.JPG', 'images/Xây dựng GX/CRW_4603.JPG'] as photo}
           <div class="rounded-2xl overflow-hidden">
             <img class="w-full object-cover aspect-auto image-effect" src={photo} alt="Xây nhà thờ mới" />
           </div>
@@ -66,7 +66,7 @@
     <div class="flex flex-col gap-4">
       <h1>Lễ Thánh Hiến nhà thờ mới January, 2006</h1>
       <div class="columns-1 sm:columns-3 gap-4 space-y-4">
-        {#each ['/images/Thánh Hiến nhà thờ mới/CRW_4770.jpg', '/images/Thánh Hiến nhà thờ mới/CRW_4801.jpg', '/images/Thánh Hiến nhà thờ mới/CRW_4806.jpg', '/images/Thánh Hiến nhà thờ mới/CRW_4812.jpg', '/images/Thánh Hiến nhà thờ mới/CRW_4822.jpg', '/images/Thánh Hiến nhà thờ mới/CRW_4835.jpg'] as photo}
+        {#each ['images/Thánh Hiến nhà thờ mới/CRW_4770.jpg', 'images/Thánh Hiến nhà thờ mới/CRW_4801.jpg', 'images/Thánh Hiến nhà thờ mới/CRW_4806.jpg', 'images/Thánh Hiến nhà thờ mới/CRW_4812.jpg', 'images/Thánh Hiến nhà thờ mới/CRW_4822.jpg', 'images/Thánh Hiến nhà thờ mới/CRW_4835.jpg'] as photo}
           <div class="rounded-2xl overflow-hidden">
             <img class="w-full object-cover aspect-auto image-effect" src={photo} alt="Nhà thờ mới" />
           </div>
