@@ -12,7 +12,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         'index': resolve(__dirname, 'index.html'),
-        //'Đoàn Thể': resolve(__dirname, 'Đoàn Thể.html'),
+        'Đoàn Thể': resolve(__dirname, 'Đoàn Thể.html'),
         //'Giáo Xứ': resolve(__dirname, 'Giáo Xứ.html'),
         //'Mục Vụ': resolve(__dirname, 'Mục Vụ.html'),
         //'Phụng Vụ': resolve(__dirname, 'Phụng Vụ.html'),

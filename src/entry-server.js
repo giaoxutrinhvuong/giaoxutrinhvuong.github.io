@@ -9,9 +9,9 @@ import a from './Index.svelte';
 export async function renderHTML(file) {
   if (file === 'index.html') {
     return a.render();
-    /*} else if (file === 'Đoàn Thể.html') {
-      return b.render();
-    } else if (file === 'Giáo Xứ.html') {
+  } else if (file === 'Đoàn Thể.html') {
+    return b.render();
+    /*} else if (file === 'Giáo Xứ.html') {
       return c.render();
     } else if (file === 'Mục Vụ.html') {
       return d.render();
