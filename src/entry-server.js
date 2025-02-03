@@ -1,5 +1,5 @@
 import a from './Index.svelte';
-//import b from './Đoàn Thể.svelte';
+import b from './Đoàn Thể.svelte';
 //import c from './Giáo Xứ.svelte';
 //import d from './Mục Vụ.svelte';
 //import e from './Phụng Vụ.svelte';
