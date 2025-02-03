@@ -11,7 +11,6 @@
       <p class="font-bold">Phó Nội Vụ: Hồng Lê</p>
       <p class="font-bold">Phó Ngoại Vụ: Châu Dương</p>
       <p class="font-bold">Thư Ký: Đắc Trần</p>
-      <p class="font-bold">Thành viên: Lan Đinh</p>
       <p class="font-bold">Thành viên: Kha Nguyễn</p>
       <p class="font-bold">Thành viên: Thiệu Trần</p>
     </div>
