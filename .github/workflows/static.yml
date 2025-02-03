@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages 
-name: Deploy static content to Pages
+name: Build and deploy static HTML from Svelte files
 
 on:
   # Runs on pushes targeting the default branch
@@ -37,6 +37,10 @@ jobs:
           bun-version: latest
       - name: Install packages
         run: bun install
+      - name: Set Vietnamese locale
+        run: |
+          sudo locale-gen vi_VN.UTF-8
+          sudo update-locale LANG=vi_VN.UTF-8
       - name: Build project
         run: bun run ssr:build
       - name: Setup Pages

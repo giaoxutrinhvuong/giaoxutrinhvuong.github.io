@@ -8,7 +8,7 @@
     "host": "vite --host",
     "build": "vite build --emptyOutDir --outDir ./dist",
     "preview": "vite preview",
-    "ssr:build": "rm -Rf dist && mkdir dist && vite build --ssr src/entry-server.js --outDir dist/server && npx tailwindcss -i ./src/app.css -o dist/app.css && bun build.js && cp -r public/* dist && rm -Rf dist/server"
+    "ssr:build": "mkdir dist && vite build --ssr src/entry-server.js --outDir dist/server && npx tailwindcss -i ./src/app.css -o dist/app.css && bun build.js && cp -r public/* dist && rm -Rf dist/server"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
