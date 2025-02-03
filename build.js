@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import beautify from 'simply-beautiful';
 
+
 const pages = [
   'index.html',
   'Đoàn Thể.html',
