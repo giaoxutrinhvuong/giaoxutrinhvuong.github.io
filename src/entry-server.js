@@ -2,7 +2,7 @@ import a from './Index.svelte';
 import b from './Đoàn Thể.svelte';
 //import c from './Giáo Xứ.svelte';
 //import d from './Mục Vụ.svelte';
-import e from './PhungVu.svelte';
+import e from './Phụng Vụ.svelte';
 //import f from './Sinh Hoạt.svelte';
 //import g from './Thông Tin.svelte';
 
