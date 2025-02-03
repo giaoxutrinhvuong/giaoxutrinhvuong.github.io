@@ -41,6 +41,8 @@ jobs:
         run: |
           sudo locale-gen vi_VN.UTF-8
           sudo update-locale LANG=vi_VN.UTF-8
+          export LANG=vi_VN.UTF-8
+          locale
       - name: Build project
         run: bun run ssr:build
       - name: Setup Pages
