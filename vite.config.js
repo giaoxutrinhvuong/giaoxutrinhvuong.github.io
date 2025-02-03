@@ -15,7 +15,7 @@ export default defineConfig({
         'Đoàn Thể': resolve(__dirname, 'Đoàn Thể.html'),
         //'Giáo Xứ': resolve(__dirname, 'Giáo Xứ.html'),
         //'Mục Vụ': resolve(__dirname, 'Mục Vụ.html'),
-        'phụng vụ': resolve(__dirname, 'phụng vụ.html'),
+        'phung vu': resolve(__dirname, 'phung vu.html'),
         //'Sinh Hoạt': resolve(__dirname, 'Sinh Hoạt.html'),
         //'Thông Tin': resolve(__dirname, 'Thông Tin.html'),
       },
