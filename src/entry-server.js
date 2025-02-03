@@ -7,7 +7,6 @@ import e from './PhungVu.svelte';
 //import g from './Thông Tin.svelte';
 
 export async function renderHTML(file) {
-  console.log(file, file == 'Phụng Vụ.html')
   if (file === 'index.html') {
     return a.render();
   } else if (file === 'Đoàn Thể.html') {
@@ -16,8 +15,7 @@ export async function renderHTML(file) {
     //  return c.render();
     //} else if (file === 'Mục Vụ.html') {
     //  return d.render();
-  } else if (file === 'Phụng Vụ.html') {
-    console.log('!!!')
+  } else if (file === 'Phụng Vụ.html') {
     return e.render();
     //} else if (file === 'Sinh Hoạt.html') {
     //  return f.render();
