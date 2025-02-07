@@ -37,7 +37,7 @@
 
     <div class="flex flex-col gap-2 text-center">
       <h1 class="underline">Ban Khánh Tiết</h1>
-      <p class="font-bold">Trưởng Ban: Tiến Trần</p>
+      <p class="font-bold">Trưởng Ban: Khang Đặng</p>
     </div>
 
     <div class="flex flex-col gap-2 text-center">
@@ -52,12 +52,12 @@
 
     <div class="flex flex-col gap-2 text-center">
       <h1 class="underline">Ban Bác Ái-Xã Hội</h1> 
-      <p class="font-bold">Trưởng Ban: Trang Trần</p>
+      <p class="font-bold">Trưởng Ban: Thành Ngô</p>
     </div>
 
     <div class="flex flex-col gap-2 text-center">
       <h1 class="underline">Đoàn Thiếu Nhi Thánh Thể</h1>
-      <p class="font-bold">Trưởng Đoàn: Anthony Nguyễn</p>
+      <p class="font-bold">Trưởng Đoàn: Eric Trần</p>
     </div>
 
     <div class="flex flex-col gap-2 text-center">
@@ -68,7 +68,7 @@
 
     <div class="flex flex-col gap-2 text-center">
       <h1 class="underline">Hội Knights of Columbus</h1>
-      <p class="font-bold">Trưởng Hội: Khang Đặng</p>
+      <p class="font-bold">Trưởng Hội: Đắc Trần</p>
     </div>
 
     <div class="flex flex-col gap-2 text-center">
