@@ -41,6 +41,8 @@
         <p>Lạy Cha trên trời.</p>
         <p>Xin cho ơn đức tin mà Cha ban tặng chúng con trong Chúa Giêsu Kitô. Con Cha và Anh của chúng con, cùng ngọn lửa đức ái được thắp lên trong tâm hồn chúng con bởi Chúa Thánh Thần, khơi dậy trong chúng con niềm hy vọng hồng phúc hướng về nước Cha trị đến.</p>
         <p>Xin ân sủng Cha biến đổi chúng con thành những người miệt mài vun trồng hạt giống Tin Mừng. Ước gì nhũng hạt giống ấy biến đổi từ bên trong nhân loại và toàn thể vũ trụ này, trong khi vững lòng mong đợi trời mới đất mới, lúc mà quyền lực Sự Dữ sẽ bị đánh bại, và vinh quang Cha sẽ chiếu sáng muôn đời. </p>
+        <p>Xin cho ân sủng của Năm Thánh này khơi dậy trong chúng con, là Những Người Lữ Hành Hy Vọng, niềm khao khát kho tàng ở trên trời. Đồng thời cũng làm lan toả trên khắp thế giới niềm vui và sự bình an của Đấng Cứu Chuộc chúng con. Xin tôn vinh và ngợi khen Cha là Thiên Chúa chúng con, Cha đáng chúc tụng mãi muôn đời. Amen. </p>
+        <p> Đức Giáo Hoàng Phanxico</p>
         <p><a class="link" href="/Documents/Lời Nguyện trong cơn dịch bệnh.pdf">Đọc Tiếp</a></p>
       </div>
     </div>
