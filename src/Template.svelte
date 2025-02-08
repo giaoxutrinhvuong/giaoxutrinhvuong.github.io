@@ -10,7 +10,7 @@
 
   <div class="w-full flex gap-4 justify-between items-center px-8 bg-gray-200 sticky top-0 z-10">
     <a class="flex-none w-20 flex justify-center items-center" href="index.html">
-      <img src="images/Maria 2(16x16).jpg" class="w-16 h-16 image-effect" alt="Maria" />
+      <img src="images/Maria 1(16x16).png" class="w-16 h-16 image-effect" alt="Maria" />
     </a>
     <div class="flex-1 flex-col">
       <div class="sm:hidden h-24 flex items-center justify-center cursor-pointer select-none" id="navButton">
