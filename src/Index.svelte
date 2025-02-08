@@ -37,9 +37,9 @@
       </div>
       <div class="flex-1 w-full sm:w-1/2 flex flex-col gap-4 items-center justify-center text-center">
         <h2>Cha Chánh xứ: JB Trần văn Trị</h2>
-        <h2 class="text-red-500">Lời nguyện trong cơn dịch bệnh</h2>
-        <p>Lạy Thiên chúa Ba Ngôi toàn năng chúng con đang họp nhau cầu nguyện, tha thiết nài xin cho cơn dịch bệnh mau chấm dứt.</p>
-        <p>Lạy Chúa Cha giàu lòng thương xót xin nhìn đến nỗi thống khổ của đoàn con trên khắp thế giới, đặc biệt tại những nơi dịch bệnh đang hoành hành. Xin củng cố đức tin của chúng con, cho chúng con hoàn toàn tín thác vào tình yêu quan phòng của Cha.</p>
+        <h2 class="text-red-500">Kinh Năm Thánh</h2>
+        <p>Lạy Cha trên trời.</p>
+        <p>Xin cho ơn đức tin ma Cha ban tặng chúng con trong Chúa Giêsu Kitô. Con Cha và Anh của chúng con, cùng ngọn lửa đức ái được thắp lên trong tâm hồn chúng con bởi Chúa Thánh Thần.</p>
         <p><a class="link" href="/Documents/Lời Nguyện trong cơn dịch bệnh.pdf">Đọc Tiếp</a></p>
       </div>
     </div>
